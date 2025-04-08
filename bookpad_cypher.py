@@ -137,22 +137,4 @@ def main():
             print("Improper selection.")
 if __name__ == "__main__":
     main()
-    """
-     book1 = "Books/Jose Rizal - Ang Filibusterismo (1891, tl).txt"
-    book2 = "Books/Jose Rizal - Noli Me Tangere (1887, tl).txt"
-    book3 = "Books/Yoon Suk Yeol wikipedia article"
-    book5 = "Books/Vincente Rama - Larawan - Mga Sugilanon ug Dinalidali.txt"
-    rev_codebook = "reverse.json"
-    process_books(book1,book2,book3,book5)
-    cb = generate_code_book()
-    ciphertext = encrypt(cb,"TRADE WARS SUCK!!!")
-    print(ciphertext)
-    rcode = load(rev_codebook,book1,book2,book3,book5,reverse=True)
-    message_decrypt = decrypt(
-        rcode,
-        ciphertext
-    )
-    print(message_decrypt)  
-    
-    """
 
