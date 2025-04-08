@@ -113,7 +113,6 @@ def main_menu():
 """)
     return int(input("Make a selection [1,2,3]: "))
 
-
 def main():
     key_books = ('Books/Jose Rizal - Ang Filibusterismo (1891, tl).txt', 'Books/Jose Rizal - Noli Me Tangere (1887, tl).txt', 'Books/Vincente Rama - Larawan - Mga Sugilanon ug Dinalidali.txt', "Books/Yoon Suk Yeol wikipedia article")
     code_book_path = 'code_books/standard.json'
