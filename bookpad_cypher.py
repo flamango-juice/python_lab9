@@ -106,7 +106,6 @@ def decrypt(rev_code_book, ciphertext):
             rev_code_book[page][line][int(char)])
     return ''.join(plaintext)
 
-
 def main_menu():
     print("""1). Encrypt
 2). Decrypt
